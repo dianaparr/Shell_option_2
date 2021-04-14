@@ -33,6 +33,6 @@ void error_execve_paths(char *buff, int count_pro);
 void error_stat_paths_commands(char *buff, int count_pro);
 void create_child_path(char **dp, char *buff, int count_pro);
 void create_child_commands(char **dp_path, char **dp_commands, char *buff,
-			   char *dest, int count_pro);
+			   int count_pro);
 
 #endif /* HEADER_FILE_H */
